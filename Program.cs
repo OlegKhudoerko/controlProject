@@ -4,6 +4,14 @@ string[] secondArray = new string[CountMaxLength()];
 CollectArray();
 Console.WriteLine($"\n[{string.Join(", ", array)}] -> [{string.Join(", ", secondArray)}]\n");
 Console.ReadKey();
+//////////////////////////////////////////////////////
+string InputArray()
+{
+    Console.Write("\nВведите через ПРОБЕЛ несколько слов,символов или чисел  => ");
+    string? getArray = Console.ReadLine();
+    return getArray!;
+}
+//////////////////////////////////////////////////////
 int CountMaxLength()
 {
     int j = 0;
@@ -16,13 +24,7 @@ int CountMaxLength()
     }
     return j;
 }
-
-string InputArray()
-{
-    Console.Write("\nВведите через ПРОБЕЛ несколько слов,символов или чисел  => ");
-    string? getArray = Console.ReadLine();
-    return getArray!;
-}
+////////////////////////////////////////////////////////
 int CollectArray()
 {
     int j = 0;
@@ -36,3 +38,4 @@ int CollectArray()
     }
     return j;
 }
+////////////////////////////////////////////////////////
