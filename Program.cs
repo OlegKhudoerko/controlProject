@@ -2,6 +2,8 @@
 string[] array = InputArray()!.Split();
 string[] secondArray = new string[CountMaxLength()];
 CollectArray();
+Console.WriteLine($"\n[{string.Join(", ", array)}] -> [{string.Join(", ", secondArray)}]\n");
+Console.ReadKey();
 int CountMaxLength()
 {
     int j = 0;
