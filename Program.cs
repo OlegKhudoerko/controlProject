@@ -1,5 +1,7 @@
 ﻿int maxLenght = 3;
 string[] array = InputArray()!.Split();
+string[] secondArray = new string[CountMaxLength()];
+CollectArray();
 int CountMaxLength()
 {
     int j = 0;
