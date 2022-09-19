@@ -2,7 +2,7 @@
 
 **Задача: Сформировать массив строк из имеющего массива строк, длина строк которых меньше или равна 3 символам**.
 
-<img src=".//IMG/block_diagram.svg " width="47%" align="right"> 
+<img src=".//img/block_diagram.svg " width="47%" align="right"> 
 
 ## Решение:
 
